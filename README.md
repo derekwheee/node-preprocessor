@@ -1,4 +1,6 @@
-preprocessor
-============
+Node Preprocessor
+=================
 
-Node application to live-compile Sass, LESS, and live JS Hint
+Live compile Sass and LESS
+
+Live hint JavaScript with JS Hint
