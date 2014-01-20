@@ -1,0 +1,33 @@
+{
+  "name"         : "node-preprocessor",
+  "version"      : "0.0.1",
+  "description"  : "Node helper to run JSHint and preprocessor compilation on submitted text",
+  "private"      : true,
+  "main"         : "server.js",
+  "engines"      : {
+    "node" : "0.10.x"
+  },
+  "dependencies" : {
+    "jshint"    : "~2.4.0",
+    "node-sass" : "~0.7.0",
+    "express"   : "~3.4.7",
+    "helmet"    : "~0.1.2",
+    "less"      : "~1.6.0"
+  },
+  "scripts"      : {
+    "start" : "node server.js"
+  },
+  "jshintConfig" : {
+
+  },
+  "keywords"     : [
+    "Node",
+    "JSHint",
+    "Sass",
+    "Less",
+    "Preprocessor",
+    "Compiling"
+  ],
+  "author"       : "Derek Wheelden",
+  "license"      : "MIT"
+}
