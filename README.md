@@ -13,4 +13,4 @@ Install Node packages with `npm install`
 
 Run server with `node server`
 
-Server should now be available at http://localhost:6633
+Server should now be available at [http://localhost:6633](http://localhost:6633)
