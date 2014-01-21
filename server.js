@@ -1,5 +1,4 @@
 var // Dependencies
-    newrelic = require('newrelic'),
     express  = require('express'),
     helmet   = require('helmet'),
     // Modules
@@ -9,7 +8,7 @@ var // Dependencies
 
 // Settings
 var settings = {
-    env  : "production", // app.get('env')
+    env  : app.get('env') || "production",
     port : process.env.PORT || 6633
 };
 

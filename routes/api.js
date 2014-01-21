@@ -24,7 +24,6 @@ exports.preprocess = function(req, res) {
             error: function(error) {
                 res.jsonp({ "error" : error });
             },
-            includePaths: [ 'lib/', 'mod/' ],
             outputStyle: 'compressed'
         });
     }
