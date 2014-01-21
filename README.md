@@ -1,9 +1,11 @@
 Node Preprocessor
 =================
 
-Live compile Sass and LESS
+* Live compile Sass
+* Live compile LESS
+* Live hint JavaScript with JSHint
 
-Live hint JavaScript with JS Hint
+*This is just a proof-of-concept, and is not production-ready.*
 
 ## Installation
 
